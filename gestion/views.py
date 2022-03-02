@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def indexL(request):
     return render(request, 'gestion/land.html')
+
+def indexH(request):
+    return render(request, 'gestion/inicio.html')
